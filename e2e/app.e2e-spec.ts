@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('carousel-app App', () => {
+describe('ng5-bootstrap4-carousel App', () => {
   let page: AppPage;
 
   beforeEach(() => {

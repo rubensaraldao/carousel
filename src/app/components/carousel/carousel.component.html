@@ -1,0 +1,22 @@
+
+<div class="title">Carousel</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-2">
+    </div>
+    <div class="col-md-8">
+      <ngb-carousel>
+        <ng-template ngbSlide *ngFor="let phot of photoList; let i=index">
+          <img src="{{phot.url}}" alt="Random first slide">
+          <div class="carousel-caption">
+            <h3>10 seconds between slides...</h3>
+            <p>This carousel uses customized default values.</p>
+          </div>
+        </ng-template>        
+      </ngb-carousel>    </div>
+    <div class="col-md-2">
+    </div>
+  </div>
+</div>
+

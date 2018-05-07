@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "carousel-app"
+    "name": "ng5-bootstrap4-carousel"
   },
   "apps": [
     {

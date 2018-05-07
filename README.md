@@ -1,27 +1,116 @@
-# CarouselApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+# _ng5-bootstrap4-carousel_ Angular5 sample project installed Bootstrap4 Carousel
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+_ng5-bootstrap4-carousel_ is an Angular5 sample project for programmers who want to use Bootstrap4 Carousel easily.
 
-## Code scaffolding
+_Video Explanation_
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+(English)   <https://youtu.be/BrQF_v4jvrs>
 
-## Build
+(Japanese)  <https://youtu.be/Wgc1cPRdQd0>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+_Full Source Code_
+<https://github.com/Ohtsu/ng5-bootstrap4-carousel>
 
-## Running unit tests
+## Overview 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This project is based on **ng-bootstrap**. 
+    
+So please refer to **ng-bootstrap Getting started** page as follows at first. 
+    
+<https://ng-bootstrap.github.io/#/getting-started>
+ 
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Prerequisite
 
-## Further help
+   - Git
+   - Node.js
+   - TypeScript2
+   - Angular5
+   - Angular/cli
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Installation
+
+To install this program:
+
+   - Make your own directory and change into it.
+
+```bash
+$ mkdir mydir
+$ cd mydir
+```
+   - Make the clone as follows.
+
+```bash
+$ git clone https://github.com/Ohtsu/ng5-bootstrap4-carousel.git
+```
+
+   - Change into _ng5-bootstrap4-carousel_ and run **npm install**.
+
+```bash
+$ cd ng5-bootstrap4-carousel
+$ npm install 
+```
+
+
+#### Check Your Program
+
+If you start local server as follows, you can get the first page in your browser by accessing **http://localhost:4200**.
+
+
+```bash
+$ ng serve
+```
+You will find the default page.
+
+  - ***First Page*** 
+
+  <img src="https://raw.githubusercontent.com/Ohtsu/images/master/ng5-bootstrap4/ng5-bootstrap4-carousel_default_page_01.png" width= "640" >
+
+
+#### Stop Local Server
+
+Input **Ctrl+C** and **y+Return** to stop the local server.
+
+
+
+
+## Version
+
+   - ng5-bootstrap4-carousel : 0.0.1
+   - @angular/cli : 1.5.0
+   - Angular      : 5.0.0
+   - @ng-bootstrap : 1.0.0-beta.9
+
+
+
+## Reference
+
+- "ng-bootstrap Getting started",
+
+<https://ng-bootstrap.github.io/#/getting-started>
+
+- "Angular5 Custom Library: The definitive, step-by-step guide", 
+<https://www.udemy.com/draft/1461368/learn/v4/content>
+
+
+
+
+## Change Log
+
+ - 2018.1.14  version 0.0.1 uploaded
+
+
+## Copyright
+
+copyright 2018 by Shuichi Ohtsu (DigiPub Japan)
+
+
+## License
+
+MIT © [Shuichi Ohtsu](ohtsu@digipub-net.com)
